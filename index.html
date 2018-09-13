@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Week 6 gihpy api assignment</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body id="whole">
+  <div class="jumbotron" id="header">
+    <img id="topImageL" src="assets/images/top.jpg">
+    <img id="topImageR" src="assets/images/top.jpg">
+    <h1>Anime is Life!</h1>
+    <h4>Click the buttons to display GIPHYs of your favorite anime.<br>
+      Click the GIPHYs to pause and play<br>
+      Search to add more buttons!</h4>
+  </div>
+  <form class="form-inline" id="animesearch">
+    <div class="form-group">
+      <label for="animeinput">Search for an anime</label>
+      <input type="text" id="animeInput">
+    </div>
+    <input id="addShow" type="submit" value="submit">
+  </form>
+  <div class="row">
+    <div class="container">
+      <div class="btn-group inline pull-left">
+        <button class="btn btn-primary" id="show" data-search="Naruto">Naruto</button>
+        <button class="btn btn-primary" id="show" data-search="Bleach">Bleach</button>
+        <button class="btn btn-primary" id="show" data-search="Death Note">Death Note</button>
+        <button class="btn btn-primary" id="show" data-search="Hunter x hunter">Hunter x Hunter</button>
+        <button class="btn btn-primary" id="show" data-search="One Punch Man">One Punch Man</button>
+        <div id="myButtons"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <span>
+        <div id="gifArea"></div>
+      </span>
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/javascript/ap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
