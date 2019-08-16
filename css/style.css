@@ -4,21 +4,27 @@
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-family: 'Noto Serif KR', sans-serif;
 }
 h1 {
 	font-weight: bold
 }
 #topImageL {
-	width: 20%;
+	width: 230px;
+	height: 150px;
 	float: left;
 	margin-left: 20px;
+	padding-right:10px;
 }
 
 #topImageR {
-	width: 20%;
+	width: 230px;
+	height: 150px;
 	float: right;
 	margin-right: 20px;
+	padding-left: 10px;
 }
 
 label {
